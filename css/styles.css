@@ -340,7 +340,7 @@ form {
   gap: 40px;
   width: 151px;
   height: 200px;
-  margin-bottom: 168px; 
+  margin-bottom: 168px;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -714,6 +714,11 @@ form {
   border-radius: 50%;
   background-color: #4d5ae5;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.team-social-link:hover,
+.team-social-link:focus {
+  background-color: #404bbf;
 }
 
 @media screen and (min-width: 768px) {
@@ -1169,6 +1174,11 @@ form {
   background-color: #404bbf;
 }
 
+.footer-social-link:hover,
+.footer-social-link:focus {
+  background-color: #31d0aa;
+}
+
 @media screen and (min-width: 768px) {
   .page-footer {
     background-color: #2e2f42;
@@ -1255,6 +1265,8 @@ form {
   .footer-container {
     display: flex;
     align-items: baseline;
+    flex-direction: row;
+    padding-left: 0;
   }
 
   .footer-social-title {
@@ -1326,6 +1338,8 @@ form {
   }
 
   .footer-form-container {
+    margin-top: 0;
+    display: block;
     margin-left: auto;
   }
 
