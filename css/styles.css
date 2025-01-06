@@ -377,6 +377,8 @@ form {
   width: 193px;
   height: 72px;
   margin-bottom: 48px;
+  margin-left: 16px;
+  margin-right: 24px;
 }
 
 .mobile-menu-contacts-link {
